@@ -1,0 +1,30 @@
+{
+    "id": "ocid1...",
+    "compartmentId": "<COMPARTMENT-ID>",
+    "timeCreated": "2022-06-14",
+    "displayName": "name",
+    "description": "description",
+    "labelsSet": [
+      {"name": "starbucks-cup"}
+    ],
+    "annotationFormat": "BOUNDING_BOX",
+    "datasetSourceDetails": {
+      "sourceType": "OBJECT_STORAGE",
+      "namespace": "<NAMESPACE-NAME>",
+      "bucket": "starbucks-dataset",
+      "prefix": ""
+    },
+    "datasetFormatDetails": {
+      "formatType": "IMAGE"
+    },
+    "recordFiles": [
+      {
+        "namespace": "<NAMESPACE-NAME>",
+        "bucket": "starbucks-dataset",
+        "path": "starbucks-cup.jsonl"
+      }
+    ],
+    "definedTags": {},
+    "freeformTags": {}
+}
+
