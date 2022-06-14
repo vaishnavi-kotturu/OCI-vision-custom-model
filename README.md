@@ -1,1 +1,1 @@
-# OCI-vision-custom-model-blog
+# OCI-vision-custom-model
